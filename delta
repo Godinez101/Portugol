@@ -1,0 +1,28 @@
+Var
+// Seção de Declarações das variáveis
+delta: real
+x1: real
+x2: real
+b: real
+a: real
+c: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+// Inserção de dados
+a <- 1
+b <- 2
+c <- -15
+
+ //calculo do delta
+delta <- (b*b-4*a*c)
+
+//calculo x1 e x2
+x1 <- (-b + RaizQ(delta)) / (2*a)
+x2 <- (-b - RaizQ(delta)) / (2*a)
+escreva (x1)
+escreva(x2)
+
+ 
+ 
+Fimalgoritmo
