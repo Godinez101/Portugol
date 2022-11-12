@@ -1,0 +1,14 @@
+Var
+// Seção de Declarações das variáveis 
+valora: real
+valorb: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+valora <- 10
+valorb <- 5
+escreval (valora+valorb)
+escreval (valora-valorb)
+escreval (valora/valorb)
+escreval (valora*valorb)
