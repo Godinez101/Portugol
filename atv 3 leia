@@ -1,0 +1,18 @@
+Var
+// Seção de Declarações das variáveis 
+a: inteiro
+b: inteiro
+Total: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ a <- 5
+ b <- 6
+ Total <- (a*b)
+escreval ("valor de a:")
+leia (a)
+escreval ("valor de b:")
+leia (b)
+escreval ("valor total:")
+leia (Total)
