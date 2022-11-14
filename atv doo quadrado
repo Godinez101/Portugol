@@ -1,0 +1,22 @@
+Var
+// Seção de Declarações das variáveis 
+area: inteiro
+ladohorizontal: inteiro
+ladovertical: inteiro
+perimetro: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ladohorizontal <- 5
+area <-(5^2)
+ladovertical <- RaizQ(10)
+perimetro <- (4* ladovertical)
+// resultado
+escreval("5")
+leia (ladohorizontal)
+escreval ("10")
+leia (area)
+escreval ("5")
+leia (ladovertical)
+escreval ("20")
+leia (perimetro)
