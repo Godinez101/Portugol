@@ -1,0 +1,24 @@
+Var
+// Seção de Declarações das variáveis
+cateto1: real
+cateto2: real
+hipotenusa: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ cateto1 <- (4^2)
+ cateto2 <-(3^2)
+ hipotenusa <- ( cateto1+cateto2)
+ // resultado
+ escreval ("O valor do primeiro cateto é")
+ escreval (cateto1)
+ escreval ("O valor do segundo cateto é")
+ escreval (cateto2)
+ escreval ("O valor da hipotenusa é")
+ escreval (hipotenusa)
+
+
+
+
+Fimalgoritmo
