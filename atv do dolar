@@ -1,19 +1,21 @@
 Var
 // Seção de Declarações das variáveis 
+
 dolarnocofre: inteiro
 cotacao: real
 conversoremreal: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 dolarnocofre <- 15000
 cotacao <- 1.78
 conversoremreal <-(dolarnocofre*cotacao)
 
 //resultado
 escreval ("O valor do cofre em dolar é")
-escreval (dolarnocofre)
+leia (dolarnocofre)
 escreval ("O valor da cotação é")
-escreval (cotacao)
+leia (cotacao)
 escreval ("O valor do cofre em real")
-escreval (conversoremreal)
+leia (conversoremreal)
+Fimalgoritmo
