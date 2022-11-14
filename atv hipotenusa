@@ -11,12 +11,12 @@ Inicio
  cateto2 <-(3^2)
  hipotenusa <- ( cateto1+cateto2)
  // resultado
- escreval ("O valor do primeiro cateto é")
- escreval (cateto1)
- escreval ("O valor do segundo cateto é")
- escreval (cateto2)
- escreval ("O valor da hipotenusa é")
- escreval (hipotenusa)
+escreval ("O valor do primeiro cateto é")
+leia (cateto1)
+escreval ("O valor do segundo cateto é")
+leia(cateto2)
+escreval ("O valor da hipotenusa é")
+leia (hipotenusa)
 
 
 
