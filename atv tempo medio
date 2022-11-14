@@ -1,14 +1,19 @@
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 pontoA: inteiro
 velocidade: inteiro
 tempomedio: real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 pontoA <- 2000
 velocidade <- 120
 tempomedio <- (pontoA/velocidade)
+escreval ("o ponto A é de")
+leia (pontoA)
+escreval("a velocidade é de")
+leia (velocidade)
 escreval ("O tempo médio que o veículo levará é de ")
-escreval (tempomedio)
+leia (tempomedio)
+
 
 Fimalgoritmo
