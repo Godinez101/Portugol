@@ -1,0 +1,30 @@
+Var
+// Seção de Declarações das variáveis 
+valor1: inteiro
+valor2: inteiro
+valor3: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+valor1 <- 15
+valor2 <- 28
+valor3 <- 8
+escreval("15")
+leia(valor1)
+escreval("28")
+leia(valor2)
+escreval("8")
+leia (valor3)
+se (valor1 < 28)entao
+escreval ("acerto miseravel")
+se (valor2 > 8) entao
+escreval ("acerto de novo")
+se ( valor3 > 15) entao
+escreval ("errou!!!)
+fimse
+fimse
+fimse
+
+
+Fimalgoritmo
