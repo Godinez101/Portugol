@@ -1,0 +1,20 @@
+Var
+// Seção de Declarações das variáveis 
+kilometragem: inteiro
+litrosgastos: inteiro
+autonomia: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+kilometragem <- 5000
+litrosgastos <- 500
+autonomia <- (kilometragem/litrosgastos)
+escreval ("5000")
+leia(kilometragem)
+escreval ("500")
+leia(litrosgastos)
+escreval ("10,0")
+leia(autonomia)
+
+Fimalgoritmo
