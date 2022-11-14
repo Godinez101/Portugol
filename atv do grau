@@ -1,16 +1,16 @@
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 graufarenheits: real
 graucelsius: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 graufarenheits <- 128
 graucelsius <- ((graufarenheits-32)/9*5)
 // resultado
-escreval ("128")
+escreval ("digite o valor do farenheits")
 leia (graufarenheits)
-escreval ("53")
+escreval ("digite o valor do celsius")
 leia (graucelsius)
 
 Fimalgoritmo
