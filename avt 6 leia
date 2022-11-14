@@ -1,0 +1,25 @@
+Var
+// Seção de Declarações das variáveis
+nota1: real
+nota2: real
+nota3: real
+media: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+nota1 <- 4,5
+nota2 <- 6,4
+nota3 <- 7,5
+media <- ((nota1+nota2+nota3)/3)
+escreval ("4,5")
+leia(nota1)
+escreval("6,4")
+leia(nota2)
+escreval ("7,5")
+leia(nota3)
+escreval ("5,6")
+leia(media)
+
+
+Fimalgoritmo
