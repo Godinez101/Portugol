@@ -1,0 +1,27 @@
+Var
+// Seção de Declarações das variáveis 
+pesodapessoa: real
+altura: real
+imc: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite o peso da pessoa")
+leia (pesodapessoa)
+escreval ("Digite a altura da pessoa")
+leia (altura)
+imc <- (altura*altura/pesodapessoa)
+escreval(imc)
+se (pesodapessoa < 16,9)entao
+escreval ("Voce está muito abaixo do peso")
+se (pesodapessoa <= 18,4) entao
+escreval ("Voce está abaixo do peso")
+se (pesodapessoa = 24,9) entao
+escreval ("Voce está com o peso normal")
+se (pesodapessoa >=) entao
+escreval ("Voce está acima do peso")
+se (pesodapessoa = 34,9) entao
+escreval ("Voce esta com obesidade 1 grau")
+se (
+
+
+Fimalgoritmo
