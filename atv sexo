@@ -1,0 +1,24 @@
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+idade: inteiro
+sexo: caracter
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ nome <- ("Stela")
+idade <- 18
+sexo <- ("F")
+se (sexo = "M") entao
+escreval("Sexo ivàlido!")
+senao
+se (sexo = "F") entao
+escreval ("sexo válido!")
+fimse
+fimse
+
+
+
+
+Fimalgoritmo
