@@ -1,0 +1,25 @@
+Var
+// Seção de Declarações das variáveis
+nome: caracter
+valor: real
+maca: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+nome <- ("maçãs")
+escreval ("quantidade de maçãs")
+leia (maca)
+se (maca <12) entao
+valor <- (maca*1.30)
+escreval ("custo total", valor)
+senao
+se (maca >=12) entao
+valor <- (maca*1.00)
+escreval ("custo total", valor)
+senao
+fimse
+fimse
+
+
+
+
+Fimalgoritmo
