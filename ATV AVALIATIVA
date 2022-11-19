@@ -1,0 +1,86 @@
+.......................................
+// ATV 2
+var
+// Seção de Declarações das variáveis
+numero1: inteiro
+numero2: inteiro
+resultado1: real
+resultado2: real
+início
+// Seção de Comandos, procedimentos, funções, operadores, etc...
+escreval ("Digite um numero")
+leia (número1)
+escreval ("Digite um numero")
+leia (número2)
+se (numero1 > numero2) entao
+resultadonumero1 <- RaizQ(numero1)
+resultadonum2 <- numero2^2
+escreval ("A Raiz do numero1 é")
+escreval (resulnum1)
+escreval ("O quadrado do numero2 é")
+escreval (resulnume2)
+senao
+se(numero1 < numero2 entao
+resultadonum1 <- numero1^2
+resultadonum2 <- RaizQ(numero2)
+escreval ("O quadrado numero1 é")
+escreval (resulnum1)
+escreval ("A Raiz do numero2 é")
+escreval (resulnume2)
+fimse
+fimse
+
+
+Fimalgoritmo
+.....................................................
+// ATV 3
+Var
+// Seção de Declarações das variáveis
+nome: caracter
+valor: real
+maca: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+nome <- ("maçãs")
+escreval ("quantidade de maçãs")
+leia (maca)
+se (maca <12) entao
+valor <- (maca*1.30)
+escreval ("custo total", valor)
+senao
+se (maca >=12) entao
+valor <- (maca*1.00)
+escreval ("custo total", valor)
+senao
+fimse
+fimse
+
+
+
+
+Fimalgoritmo
+..........................................................
+// ATV 4
+Var
+// Seção de Declarações das variáveis 
+R: real
+D: real
+C: real
+A: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Digite o valor do raio")
+leia (R)
+D <- (R*2)
+C <- (3.14*D)
+A <- (3.14*R^2)
+escreval ("O Valor do raio é")
+escreval (R)
+escreval("O valor do diametro é")
+escreval (D)
+escreval ("O valor do comprimento é")
+escreval (C)
+escreval ("O valor da area é")
+escreval (A)
