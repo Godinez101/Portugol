@@ -1,0 +1,51 @@
+Var
+// Seção de Declarações das variáveis 
+Saldo: real
+Valordaconta: real
+valordodeposito: real
+saque: real
+valordosaque: real
+opcao: inteiro
+totaldosaldo: real
+Saldoatualizado: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Digite o saldo da conta")
+leia (Saldo)
+escreval (" O que você quer fazer?")
+escreval ("Digite 1 para sacar")
+escreval ("Digite 2 para depositar")
+escreval ("Digite 3 para pagar conta")
+leia (opcao)
+escolha opcao
+// SAQUE
+caso 1
+escreval ("Digite o valor que quer sacar")
+leia (valordosaque)
+se(valordosaque>Saldo) entao
+escreval("Você não tem saldo suficiente")
+senao
+escreval(" Você pode realizar o saque!")
+fimse
+// DEPOSITAR
+caso 2
+escreval ("Digite o valor que você quer depositar")
+leia (valordodeposito)
+totaldosaldo <- (valordodeposito+Saldo)
+escreval ("Seu saldo agora é")
+escreval (totaldosaque)
+// PAGAR
+caso 3
+escreval ("Digite o valor da conta")
+leia (Valordaconta)
+se (Valordaconta>Saldo) entao
+escreval ("Seu saldo é insuficiente")
+senao
+se (Valordaconta<=Saldo) entao
+Saldoatualizado <-Valordaconta-Saldo)
+escreval ("Sua conta foi paga e o total do seu saldo é")
+escreval (Saldoatualizado)
+fimse
+fimse
+fimescolha
+Fimalgoritmo
