@@ -1,0 +1,295 @@
+..................................................
+// ATV 1 - VALORES E VARIAVEIS
+Var
+// Seção de Declarações das variáveis 
+valora: real
+valorb: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+valora <- 10
+valorb <- 5
+escreval (valora+valorb)
+escreval (valora-valorb)
+escreval (valora/valorb)
+escreval (valora*valorb)
+...................................................
+// ATV 2 - VALORES E VARIAVEIS
+Var
+// Seção de Declarações das variáveis
+delta: real
+x1: real
+x2: real
+b: real
+a: real
+c: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+// Inserção de dados
+a <- 1
+b <- 2
+c <- -15
+
+ //calculo do delta
+delta <- (b*b-4*a*c)
+
+//calculo x1 e x2
+x1 <- (-b + RaizQ(delta)) / (2*a)
+x2 <- (-b - RaizQ(delta)) / (2*a)
+escreva (x1)
+escreva(x2)
+
+ 
+ 
+Fimalgoritmo
+.......................................................
+// ATV 3 - VALORES E VARIAVEIS
+Var
+// Seção de Declarações das variáveis 
+viagem: inteiro
+litrogasto: inteiro
+kilometragemtotal: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+viagem <- 2000
+litrogasto <- 10
+kilometragemtotal <- (viagem*litrogasto)
+escreval ("A kilometragem total é:")
+escreval (kilometragemtotal)
+....................................................................
+// ATV 4 - VALORES E VARIAVEIS
+Var
+// Seção de Declarações das variáveis 
+altura: real
+peso:  real
+IMC: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+altura <- 180
+peso <- 80
+IMC <- ((altura^2)/peso)
+escreva ("O IMC é")
+escreva (IMC)
+......................................................................
+// ATV 3 LEIA 
+Var
+// Seção de Declarações das variáveis 
+a: inteiro
+b: inteiro
+Total: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ a <- 5
+ b <- 6
+ Total <- (a*b)
+escreval ("valor de a:")
+leia (a)
+escreval ("valor de b:")
+leia (b)
+escreval ("valor total:")
+leia (Total)
+..................................................................
+// ATV 4 LEIA
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+valor: real
+quantidade: inteiro
+codigodoproduto: inteiro
+valortotal: real
+codigo: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+nome <- ("Hamburguer")
+valor <- 11,50
+quantidade <- 3
+codigo <- 1520
+valortotal <- (valor*3)
+escreval ("1520")
+leia (codigo)
+escreval("3")
+leia (quantidade)
+escreval ("11,50")
+leia (valor)
+escreval ("34,50")
+leia (valortotal)
+
+Fimalgoritmo
+...................................................................
+// ATV 5 LEIA
+Var
+// Seção de Declarações das variáveis 
+kilometragem: inteiro
+litrosgastos: inteiro
+autonomia: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+kilometragem <- 5000
+litrosgastos <- 500
+autonomia <- (kilometragem/litrosgastos)
+escreval ("5000")
+leia(kilometragem)
+escreval ("500")
+leia(litrosgastos)
+escreval ("10,0")
+leia(autonomia)
+
+Fimalgoritmo
+..........................................................................
+// ATV 6 LEIA
+Var
+// Seção de Declarações das variáveis
+nota1: real
+nota2: real
+nota3: real
+media: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+nota1 <- 4,5
+nota2 <- 6,4
+nota3 <- 7,5
+media <- ((nota1+nota2+nota3)/3)
+escreval ("4,5")
+leia(nota1)
+escreval("6,4")
+leia(nota2)
+escreval ("7,5")
+leia(nota3)
+escreval ("5,6")
+leia(media)
+
+
+Fimalgoritmo
+.............................................................................
+// ATV 7 LEIA
+Var
+// Seção de Declarações das variáveis 
+codigodoproduto: inteiro
+quantidade: inteiro
+valor: real
+valorapagar: real
+
+
+Inicio
+escreval ("Digite o código do produto")
+leia (codigodoproduto)
+escreval ("Digite a quantidade do produto que quer comprar")
+leia(quantidade)
+escreval ("Digite o valor do produto")
+leia (valor)
+valorapagar '<- (quantidade*valor)
+escreval ("O valor total a pagar é")
+escreval (valorapagar)
+
+Fimalgoritmo
+......................................................................
+// ATV QUADRADO
+Var
+// Seção de Declarações das variáveis 
+lado: real
+area: real
+perimetro: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("digite o valor do lado")
+leia (lado)
+area <-(lado^2)
+perimetro <- (4*lado )
+escreval ("O valor da area é:")
+escreval (area)
+escreval ("O valor do perimetro é:")
+escreval (perimetro)
+
+Fimalgoritmo
+...................................................................
+//ATV GRAUS
+
+Var
+// Seção de Declarações das variáveis
+graufarenheits: real
+graucelsius: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval ("digite o valor do farenheits")
+leia (graufarenheits)
+escreval ("O valor dos graus em celsius é:")
+graucelsius <- ((graufarenheits-32)*5/9)
+escreval (graucelsius)
+
+
+Fimalgoritmo
+.......................................................................
+//ATV HIPOTENUSA
+Var
+// Seção de Declarações das variáveis
+cateto1: real
+cateto2: real
+hipotenusa: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+ hipotenusa <- ( cateto1^2+cateto2^2)
+ // resultado
+escreval ("Informe o valor do primeiro cateto")
+leia (cateto1)
+escreval ("Informe o valor do segundo cateto")
+leia (cateto2)
+escreval ("O valor da hipotenusa é")
+ hipotenusa <- ( cateto1^2+cateto2^2)
+escreval (hipotenusa)
+
+Fimalgoritmo
+...................................................................
+// ATV Dólar
+Var
+// Seção de Declarações das variáveis
+dolarnocofre: real
+cotacao: real
+conversoremreal: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+dolarnocofre <- 15000
+cotacao <- 2,00
+conversoremreal <-(dolarnocofre*cotacao)
+
+//resultado
+escreval ("Digite o valor do cofre em dolar:")
+leia (dolarnocofre)
+escreval ("Digite o valor da cotação no dia:")
+leia(cotacao)
+escreval ("O valor do cofre em real")
+escreval (conversoremreal)
+Fimalgoritmo
+..........................................................................
+// ATV TEMPO MEDIO
+Var
+// Seção de Declarações das variáveis 
+pontochegada: inteiro
+velocidade: inteiro
+tempomedio: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Digite a distancia do ponto de chegada")
+leia(pontochegada)
+escreval ("Dgite a velocidade do veículo")
+leia (velocidade)
+tempomedio <- (pontochegada/velocidade)
+escreval("O tempo médio para chegar ao destino é", tempomedio)
+
+Fimalgoritmo
+.....................................................................
