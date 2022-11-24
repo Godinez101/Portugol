@@ -121,23 +121,20 @@ Fimalgoritmo
 ...................................................................
 // ATV 5 LEIA
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 kilometragem: inteiro
 litrosgastos: inteiro
 autonomia: real
 
-
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-kilometragem <- 5000
-litrosgastos <- 500
-autonomia <- (kilometragem/litrosgastos)
-escreval ("5000")
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval ("Digite a distancia pecorrida:")
 leia(kilometragem)
-escreval ("500")
+escreval ("Digite quanto de gasolina foi gasto:")
 leia(litrosgastos)
-escreval ("10,0")
-leia(autonomia)
+escreval ("A autonomia do veiculo é de:")
+autonomia <- (kilometragem/litrosgastos)
+escreval(autonomia)
 
 Fimalgoritmo
 ..........................................................................
