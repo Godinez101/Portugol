@@ -75,25 +75,26 @@ IMC <- ((altura^2)/peso)
 escreva ("O IMC é")
 escreva (IMC)
 ......................................................................
-// ATV 3 LEIA 
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 a: inteiro
 b: inteiro
 Total: inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- a <- 5
- b <- 6
- Total <- (a*b)
-escreval ("valor de a:")
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval ("Digite o valor de a:")
 leia (a)
-escreval ("valor de b:")
+escreval ("Digite o valor de b:")
 leia (b)
-escreval ("valor total:")
-leia (Total)
+escreval ("O valor total é:")
+ Total <- (a*b)
+escreval (Total)
+
+
+Fimalgoritmo
 ..................................................................
 // ATV 4 LEIA
 Var
