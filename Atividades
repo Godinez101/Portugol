@@ -293,3 +293,110 @@ escreval("O tempo médio para chegar ao destino é", tempomedio)
 
 Fimalgoritmo
 .....................................................................
+// ATV NUMERO PAR OU IMPAR
+Var
+// Seção de Declarações das variáveis
+ numero: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+numero <- 5
+se (numero <> 4) entao
+escreval ("ele não é par")
+se (numero = 5) então
+escreval ("ele é impar")
+se (numero <> -5) entao
+escreval ("ele não é negativo")
+se (numero = 5) entao
+escreval ("ele é positivo")
+fimse
+fimse
+fimse
+fimse
+
+Fimalgoritmo
+............................................................
+//ATV Gênero
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+idade: inteiro
+sexo: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ nome <- ("Stela")
+idade <- 18
+sexo <- ("F")
+se (sexo = "M") entao
+escreval("Sexo ivàlido!")
+senao
+se (sexo = "F") entao
+escreval ("sexo válido!")
+fimse
+fimse
+
+Fimalgoritmo
+.............................................................
+//ATV SALARIO
+Var
+// Seção de Declarações das variáveis 
+nomedaescola: caracter
+salario1: real
+salario2: real
+salario3: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ nomedaescola <- ("aprender")
+ salario1 <- ( 12*6)
+ salario2 <- (17*6)
+ salario3 <- (25*6)
+se (salario1 = 72) entao
+escreval ("Está correto!")
+se (salario2 < 100) entao
+escreval ("Está errado!")
+se (salario3 <> 100) entao
+escreval ("Está errado!")
+fimse
+fimse
+fimse
+Fimalgoritmo
+...................................................
+// ATV PESO
+Var
+// Seção de Declarações das variáveis
+pesodapessoa: real
+altura: real
+imc: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite o peso da pessoa")
+leia (pesodapessoa)
+escreval ("Digite a altura da pessoa")
+leia (altura)
+imc <- (altura*altura/pesodapessoa)
+escreval(imc)
+se (imc < 16.9^2)entao
+escreval ("Voce está muito abaixo do peso")
+se (imc = 18.4^2) entao
+escreval ("Voce está abaixo do peso")
+se (imc = 24.9^2) entao
+escreval ("Voce está com o peso normal")
+se (imc >= 29.9^2) entao
+escreval ("Voce está acima do peso")
+se (imc = 34.9^2) entao
+escreval ("Voce esta com obesidade 1 grau")
+se (imc = 40^2) entao
+escreval ("voce esta com obesidade 2 grau")
+se (imc > 40^2) entao
+escreval ("Voce esta com obesidade 3 grau")
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
