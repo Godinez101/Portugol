@@ -149,19 +149,17 @@ media: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-nota1 <- 4,5
-nota2 <- 6,4
-nota3 <- 7,5
-media <- ((nota1+nota2+nota3)/3)
-escreval ("4,5")
-leia(nota1)
-escreval("6,4")
-leia(nota2)
-escreval ("7,5")
-leia(nota3)
-escreval ("5,6")
-leia(media)
 
+
+escreval ("Digite a primeira nota")
+leia(nota1)
+escreval("Digite a segunda nota")
+leia(nota2)
+escreval ("Digite a terceira nota")
+leia(nota3)
+escreval ("A média das notas é:")
+media <- ((nota1+nota2+nota3)/3)
+escreval(media)
 
 Fimalgoritmo
 .............................................................................
