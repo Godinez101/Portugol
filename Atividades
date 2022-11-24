@@ -75,6 +75,7 @@ IMC <- ((altura^2)/peso)
 escreva ("O IMC é")
 escreva (IMC)
 ......................................................................
+//ATV 3 LEIA
 Var
 // Seção de Declarações das variáveis
 a: inteiro
