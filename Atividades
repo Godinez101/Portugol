@@ -98,29 +98,24 @@ Fimalgoritmo
 ..................................................................
 // ATV 4 LEIA
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 nome: caracter
 valor: real
 quantidade: inteiro
-codigodoproduto: inteiro
 valortotal: real
-codigo: inteiro
+
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-nome <- ("Hamburguer")
-valor <- 11,50
-quantidade <- 3
-codigo <- 1520
-valortotal <- (valor*3)
-escreval ("1520")
-leia (codigo)
-escreval("3")
+// Seção de Comandos, procedimento, funções, operadores, etc...
+nome <- ("Hamburgueria flash")
+escreval (nome)
+escreval ("Digite a quantidade de hamburgueres que você quer:")
 leia (quantidade)
-escreval ("11,50")
+escreval("Digite o valor do hamburguer")
 leia (valor)
-escreval ("34,50")
-leia (valortotal)
+escreval ("O valor total a ser pago é:")
+valortotal <- (quantidade*valor)
+escreval (valortotal)
 
 Fimalgoritmo
 ...................................................................
