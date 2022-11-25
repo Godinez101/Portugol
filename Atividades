@@ -234,7 +234,7 @@ hipotenusa: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 
- hipotenusa <- ( cateto1^2+cateto2^2)
+
  // resultado
 escreval ("Informe o valor do primeiro cateto")
 leia (cateto1)
