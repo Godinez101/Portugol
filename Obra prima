@@ -1,14 +1,14 @@
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 opcao,quantidade1,quantidade2,quantidade3,quantidade3D1: inteiro
 quantidadenor1, quantidade3D2, quantidadenor2, quantidade3D3, quantidadenor3 : inteiro
 quantidadelug2, quantidadelug4, quantidadelug5, quantidadelug6 : inteiro
-opcao2,valor1,valor2,valor3,valoringre3D1,valornor1,valor3D2: real
-valornor2,valor3D3,valornor3,opcao3,valorlug3,valorlug4,valorlug5,valorlug6: real
+opcao2,valor1,valor2,valor3,valoringre3D1,valornor1,valor3D2, : real
+valornor2,valor3D3,valornor3,opcao4,valorlug3,valorlug4,valorlug5,valorlug6: real
 esco1,esco2,esco3,esco4,esco5,esco6: logico
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 escreval ("O que você quer fazer no seu dia de folga")
 escreval ("Digite 1 para ficar em casa")
 escreval ("Digite 2 para ir no cinema")
@@ -54,6 +54,8 @@ escreval ("Qual filme você quer assistir")
 escreval ("Digite 1 para assistir a fuga das galinhas")
 escreval ("Digite 2 para assistir de volta para o futuro")
 escreval ("Digite 3 paa assistir invocação do mal")
+leia (opcao3)
+escolha opcao3
 // FILME 1
 caso 1
 escreval ("Você deseja assistir o filme em 3D?")
@@ -114,8 +116,8 @@ escreval (" Quais jogos você quer assistir?")
 escreval ("Digite 1 se quer assistir Real Madrid x VASCÃO")
 escreval ("Digite 2 se quer assistir Cruzeiro x Atlético")
 escreval (" Digite 3 se quer assistir Mundial do Palmeiras")
-leia (opcao3)
-escolha opcao3
+leia (opcao4)
+escolha opcao4
 // REAL X VASCÃO
 caso 1
 escreval ("Você quer assitir com a torcida do Real Madrid?")
