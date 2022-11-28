@@ -1,0 +1,308 @@
+Algoritmo "FOLGA"
+Var
+// Seção de Declarações das variáveis
+opcao,quantidade1,quantidade2,quantidade3,quantidade4,quantidade5,quantidade6,quantidade7,quantidade3D1: inteiro
+quantidadenor1, quantidade3D2, quantidadenor2, quantidade3D3, quantidadenor3 : inteiro
+quantidadelug1,quantidadelug2,quantidadelug3,quantidadelug4, quantidadelug5, quantidadelug6 : inteiro
+opcao2,valor1,valor2,opcao3,valor3,valor4,valor5,valor6,valor7,valor8,valor9,valoringre3D1,valornor1,valor3D2: real
+valornor2,valor3D3,valornor3,opcao4,valorlug1,valorlug2,valorlug3,valorlug4,valorlug5,valorlug6, opcao5: real
+quantidade8,quantidade9,quantidade10,quantidade11,quantidade12,quantidade13,quantidade14,quantidade15: inteiro
+opcao6,opcao7: real
+esco1,esco2,esco3,esco4,esco5,esco6, tamanho1: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval ("O que você quer fazer no seu dia de folga")
+escreval ("Digite 1 para ficar em casa")
+escreval ("Digite 2 para ir no cinema")
+escreval ("Digite 3 para ir no estádio")
+leia(opcao)
+escolha opcao
+// FICAR EM CASA
+caso 1
+escreval ("Caso esteja com fome, que tipo de lanche quer pedir?")
+escreval ("Digite 1 para hamburguer")
+escreval ("Digite 2 para pizza")
+escreval ("Digite 3 para açaí")
+leia (opcao2)
+escolha opcao2
+// Hamburguer
+caso 1
+escreval ("Qual hamburguer você quer?")
+escreval ("Digite 1 para x-tudo")
+escreval ("Digite 2 para x-bacon")
+escreval ("Digite 3 para x-egg")
+leia (opcao3)
+escolha opcao3
+//x-tudo
+caso 1
+escreval ("Qual a quantidade de hamburgueres você deseja?")
+leia (quantidade1)
+valor1 <- 12,50
+escreval ("O valor deu:")
+escreval (valor1*quantidade1)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+//x-bacon
+caso 2
+escreval ("Qual a quantidade de hamburgueres você deseja?")
+leia (quantidade2)
+valor2 <- 10,00
+escreval ("O valor deu:")
+escreval (valor2*quantidade2)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+//x-egg
+caso 3
+escreval ("Qual a quantidade de hamburgueres você deseja?")
+leia (quantidade3)
+valor3 <- 12,50
+escreval ("O valor deu:")
+escreval (valor3*quantidade3)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+// Pizza
+caso 2
+escreval ("Digite qual pizza você quer:")
+escreval ("Digite 1 para pizza a moda")
+escreval ("Digite 2 para pizza milho com bacon")
+escreval ("Digitte 3 para pizza de chocolate com morango")
+leia (opcao4)
+escolha opcao4
+//a moda
+caso 1
+escreval ("Digite qual o tamanho dá pizza")
+escreval("P para pequena(4pedaço)" "M para média(6pedaço)" "e G para grande(8pedaço)")
+leia (tamanho1)
+se (tamanho1 = "P") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade4)
+valor4 <- 7,50
+escreval (" O valor das pizzas ou pizza deu:", valor4*quantidade4)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "M") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade5)
+valor5 <- 31,50
+escreval (" O valor das pizzas ou pizza deu:", valor5*quantidade5)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "G") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade6)
+valor6 <- 45,90
+escreval (" O valor das pizzas ou pizza deu:", valor6*quantidade6)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+fimse
+fimse
+fimse
+// milho ocm bacon
+caso 2
+escreval ("Digite qual o tamanho dá pizza")
+escreval("P para pequena(4pedaço)" "M para média(6pedaço)" "e G para grande(8pedaço)")
+leia (tamanho1)
+se (tamanho1 = "P") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade7)
+valor7 <- 8,00
+escreval (" O valor das pizzas ou pizza deu:", valor7*quantidade7)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "M") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade8)
+valor8 <- 35,50
+escreval (" O valor das pizzas ou pizza deu:", valor8*quantidade8)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "G") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade9)
+valor9 <- 48,50
+escreval (" O valor das pizzas ou pizza deu:", valor9*quantidade9)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+fimse
+fimse
+fimse
+// chocolate e morango
+caso 3
+escreval ("Digite qual o tamanho dá pizza")
+escreval("P para pequena(4pedaço)" "M para média(6pedaço)" "e G para grande(8pedaço)")
+leia (tamanho1)
+se (tamanho1 = "P") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade10)
+valor10 <- 9,00
+escreval (" O valor das pizzas ou pizza deu:", valor10*quantidade10)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "M") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade11)
+valor11 <- 25,50
+escreval (" O valor das pizzas ou pizza deu:", valor11*quantidade11)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+senao
+se (tamanho1 = "G") entao
+escreval ("Quantas pizzas você ira querer?")
+leia (quantidade12)
+valor12 <- 38,50
+escreval (" O valor das pizzas ou pizza deu:", valor12*quantidade12)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+fimse
+fimse
+fimse
+// Açaí
+caso 3
+escreval ("Digite quantas ML de açaí irá querer:")
+escreval ("Digite 1 para 300Ml de açaí")
+escreval ("Digite 2 pra 500ML de açaí")
+escreval ("Digite 3 para 700ML de açaí")
+leia (opcao5)
+escolha opcao5
+//300ML
+caso 1
+escreval ("Quantos potes de açaí você irá querer?")
+leia (quantidade13)
+valor13 <- 9,50
+escreval ("O valor total foi de:", valor13*quantidade13)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+//500ML
+caso 2
+escreval ("Quantos potes de açaí você irá querer?")
+leia (quantidade14)
+valor14 <- 17,50
+escreval ("O valor total foi de:", valor14*quantidade14)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+//700ML
+caso 3
+escreval ("Quantos potes de açaí você irá querer?")
+leia (quantidade15)
+valor15<- 25,80
+escreval ("O valor total foi de:", valor15*quantidade15)
+escreval ("Obrigado pela sua compra, volte sempre!!")
+fimescolha
+// CINEMA
+caso 2
+escreval ("Qual filme você quer assistir")
+escreval ("Digite 1 para assistir a fuga das galinhas")
+escreval ("Digite 2 para assistir de volta para o futuro")
+escreval ("Digite 3 paa assistir invocação do mal")
+leia (opcao6)
+escolha opcao6
+// FILME 1
+caso 1
+escreval ("Você deseja assistir o filme em 3D?")
+leia (esco1)
+se (esco1 = "sim") entao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidade3D1)
+valoringre3D1 <- 30,50
+escreval (" O valor total será de:", quantidade3D1*valoringre3D1)
+escreval ("Tenha uma boa sessão!!")
+senao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidadenor1)
+valornor1 <- 15,50
+escreval ("O valor total será de:", quantidadenor1*valornor1)
+escreval ("Tenha uma boa sessão!!")
+fimse
+
+// FILME 2
+caso 2
+escreval ("Você deseja assistir o filme em 3D?")
+leia (esco2)
+se (esco2 = "sim") entao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidade3D2)
+ valor3D2 <- 30,50
+escreval ("O valor total será de:", quantidade3D2*valor3D2)
+escreval ("Tenha uma boa sessão!!")
+senao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidadenor2)
+valornor2 <- 15,50
+escreval ("O valor total será de:", quantidadenor2*valornor2)
+escreval ("Tenha uma boa sessão!!")
+fimse
+
+// FILME 3
+caso 3
+escreval ("Você deseja assistir o filme em 3D?")
+leia (esco3)
+se (esco3 = "sim") entao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidade3D3)
+ valor3D3 <- 30,50
+escreval ("O valor total será de:", quantidade3D3*valor3D3)
+escreval ("Tenha uma boa sessão!!")
+senao
+escreval ("Quantos ingressos irá querer?")
+leia (quantidadenor3)
+valornor3 <- 15,50
+escreval ("O valor total será de:", quantidadenor3*valornor3)
+escreval ("Tenha uma boa sessão!!")
+fimse
+fimescolha
+// ESTÁDIO
+caso 3
+escreval ("Quais jogos você quer assistir?")
+escreval ("Digite 1 se quer assistir Real Madrid x VASCÃO")
+escreval ("Digite 2 se quer assistir Cruzeiro x Atlético")
+escreval ("Digite 3 se quer assistir Mundial do Palmeiras")
+leia (opcao7)
+escolha opca7
+// REAL X VASCÃO
+caso 1
+escreval ("Você quer assitir com a torcida do Real Madrid?")
+leia (esco4)
+se (esco4 = "sim") entao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug1)
+valorlug1 <- 200
+escreval ("O valor total será de:", quantidadelug1*valorlug1)
+escreval ("Obrigado e bom jogo!")
+senao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug2)
+valorlug2 <- 40
+escreval ("O valor total será de:", quantidadelug2*valorlug2)
+escreval ("Obrigado e bom jogo!")
+fimse
+
+// CRUZEIRO X ATLETICO
+caso 2
+escreval ("Você quer assitir com a torcida do Cruzeiro?")
+leia (esco5)
+se (esco5 = "sim") entao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug3)
+valorlug3 <- 170,00
+escreval ("O valor total será de:", quantidadelug3*valorlug3)
+escreval ("Obrigado e bom jogo!")
+senao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug4)
+valorlug4 <- 140
+escreval ("O valor total será de:", quantidadelug4*valorlug4)
+escreval ("Obrigado e bom jogo!")
+fimse
+
+// MUNDIAL DO PALMEIRAS
+caso 3
+escreval ("Você quer assitir com a torcida do Palmeiras?")
+leia (esco6)
+se (esco6 = "sim") entao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug5)
+valorlug5 <- 140
+escreval ("O valor total será de:", quantidadelug5*valorlug5)
+escreval ("Obrigado e bom jogo!")
+senao
+escreval ("Quantos lugares você quer?")
+leia (quantidadelug6)
+valorlug6 <- 70
+escreval ("O valor total será de:", quantidadelug6*valorlug6)
+escreval ("Obrigado e bom jogo!")
+fimse
+fimescolha
+fimescolha
+Fimalgoritmo
