@@ -478,4 +478,19 @@ fimpara
 
 Fimalgoritmo
 ..............................................................
+//ATV IDADES PARA
+Var
+// Seção de Declarações das variáveis 
+idade:  inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para idade de 1 ate 5 faca
+escreval ("Digite as idades:")
+leia (idade)
+fimpara
+
+Fimalgoritmo
+...............................................
 
