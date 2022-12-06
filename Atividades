@@ -460,4 +460,22 @@ escreval ("a media é:", media)
 
 Fimalgoritmo
 .......................................................
+//ATV FATORIAL
+Var
+// Seção de Declarações das variáveis 
+fatorial, numero, soma: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval ("Digite um numero:")
+soma<- 1
+leia(numero)
+para fatorial de 1 ate numero  faca
+soma <- soma*fatorial
+escreval (soma)
+fimpara
+
+Fimalgoritmo
+..............................................................
 
