@@ -415,3 +415,21 @@ fimse
 
 
 Fimalgoritmo
+.......................................................
+//ATV PAR
+Var
+// Seção de Declarações das variáveis 
+ par: inteiro
+ 
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+par <- 0
+enquanto par<1999 faca
+par <- par +2
+escreval (par)
+fimenquanto
+
+Fimalgoritmo
+...........................................................
+
