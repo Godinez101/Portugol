@@ -432,4 +432,32 @@ fimenquanto
 
 Fimalgoritmo
 ...........................................................
+//ATV MEDIA
+Var
+// Seção de Declarações das variáveis 
+media: real
+numero, soma, c: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+repita
+escreval ("Digite o numero:")
+leia (numero)
+se numero%2=0 entao
+se numero<>0 entao
+soma <- soma+numero
+c <- c+1
+media <- 5/c
+fimse
+fimse
+se numero=0 entao
+escreval ("Fim da lista")
+fimse
+ate numero=0
+escreval ("A soma é:", soma)
+escreval ("a media é:", media)
+
+Fimalgoritmo
+.......................................................
 
