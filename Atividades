@@ -392,3 +392,26 @@ fimse
 fimse
 fimse
 Fimalgoritmo
+............................................................
+//ATV ALEATORIO
+Var
+// Seção de Declarações das variáveis 
+numeroalea: inteiro
+num: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("Qual número você acha que é? (1 à 10): ")
+numeroalea <- randi(10)
+leia (num)
+enquanto (num <> numeroalea) faca
+escreval ("Você errou, tente novamnete!")
+leia (num)
+fimenquanto
+se num=numeroalea entao
+escreval ("Você acertou!")
+fimse
+
+
+Fimalgoritmo
