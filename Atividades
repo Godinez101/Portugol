@@ -493,4 +493,28 @@ fimpara
 
 Fimalgoritmo
 ...............................................
+// ATV VETOR PRECO
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/12/2022
+Var
+// Seção de Declarações das variáveis 
+produto: vetor [0..5] de caracter
+preco: vetor [0..5] de real
+cont: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para cont  de 0 ate 5 faca
+escreval ("Digite o produto que você deseja:")
+leia (produto [cont])
+escreval ("Digite o preço do produto:")
+leia (preco [cont])
+fimpara
+
+
+Fimalgoritmo
+........................................................................
 
