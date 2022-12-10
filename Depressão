@@ -1,0 +1,22 @@
+Var
+// Seção de Declarações das variáveis
+numero: inteiro
+cont: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para cont de 1 ate 5 faca
+escreval ("Digite um número:")
+leia (numero)
+se (numero = 0 e 2 e 4 e 6 e 8) entao
+escreval ("Seu número é par")
+senao
+se (numero = 1 e 3 e 5 e 7 e 9) entao
+escreval ("Seu número é ímpar")
+fimse
+fimse
+fimpara
+
+
+Fimalgoritmo
