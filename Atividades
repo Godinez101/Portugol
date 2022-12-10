@@ -517,4 +517,24 @@ fimpara
 
 Fimalgoritmo
 ........................................................................
+// ATV IMPAR PARA
+Var
+// Seção de Declarações das variáveis
+numero: inteiro
+cont: inteiro
 
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para cont de 1 ate 5 faca
+escreval ("Digite um número:")
+leia (numero)
+se (numero % 2 = 0)entao
+escreval ("Seu número é par")
+senao
+escreval ("Seu número é ímpar")
+fimse
+fimpara
+
+
+Fimalgoritmo
