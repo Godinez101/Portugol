@@ -538,3 +538,18 @@ fimpara
 
 
 Fimalgoritmo
+...........................................................................
+// ATV VETOR NUMB ALEA
+Var
+// Seção de Declarações das variáveis 
+numero: vetor  [1..100] de inteiro
+cont: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para cont de 1 ate 100 faca
+numero[cont] <- randi(100)
+escreval (numero[cont])
+fimpara
+Fimalgoritmo
