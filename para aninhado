@@ -1,0 +1,14 @@
+Var
+// Seção de Declarações das variáveis 
+ x, y: inteiro
+ 
+
+Inicio
+
+para x de 1 ate 5 faca
+para y de 1 ate 4 faca
+escreval ("Valores de x:",x," -- Valores de y:", y)
+fimpara
+fimpara
+
+Fimalgoritmo
