@@ -538,7 +538,7 @@ fimpara
 
 
 Fimalgoritmo
-...........................................................................
+..........................................................................
 // ATV VETOR NUMB ALEA
 Var
 // Seção de Declarações das variáveis 
@@ -552,4 +552,30 @@ para cont de 1 ate 100 faca
 numero[cont] <- randi(100)
 escreval (numero[cont])
 fimpara
+Fimalgoritmo
+.......................................................................
+//Atv Vetor Troca
+Var
+// Seção de Declarações das variáveis 
+vet: vetor [1..5] de inteiro
+troca, cont1, cont2: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+vet[1] <- 8
+vet[2] <- 2
+vet[3] <- 15
+vet[4] <- 22
+vet[5] <- 3
+para cont1 de 1 ate 5 faca
+para cont2 de 1 ate 5 faca
+se vet[cont1] < vet[cont2] entao
+troca <- vet[cont1]
+vet[cont1] <- vet[cont2]
+vet[cont2] <- troca
+fimse
+fimpara
+fimpara
+escreval (vet[1], vet[2], vet[3], vet[4], vet[5])
+
 Fimalgoritmo
