@@ -620,4 +620,23 @@ fimpara
 
 Fimalgoritmo
 ...........................................
+//ATV DADO ALEATORIO
+Var
+// Seção de Declarações das variáveis
+dado: vetor[1..6] de inteiro
+cont, face: inteiro
 
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para cont de 1 ate 100 faca
+face <- randi(7)
+se (face<> 0) entao
+dado[face] <- dado[face] + 1
+fimse
+fimpara
+para cont de 1 ate 6 faca
+escreval ("Face", cont, "--foi sorteado--", dado[cont],   "--vezes--")
+fimpara
+
+Fimalgoritmo
