@@ -640,3 +640,17 @@ escreval ("Face", cont, "--foi sorteado--", dado[cont],   "--vezes--")
 fimpara
 
 Fimalgoritmo
+............................................................................
+// ATV MATRIZ
+Var
+// Seção de Declarações das variáveis 
+vet1: vetor [1..10, 1..10] de inteiro
+vet2: vetor [1..10, 1..10] de inteiro
+vet3: vetor [1..10, 1..10] de inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ vet2[4,2] <- 75
+ vet3[8,1] <- 14
+ vet1[8,4] <- vet2[4,2]* vet3[8,1]
+ escreval(vet1[8,4])
+Fimalgoritmo
