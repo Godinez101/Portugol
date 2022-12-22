@@ -678,15 +678,10 @@ Inicio
    aluno[10] <- ("Kleber")
 
    para cont1 de 1 ate 10 faca
-      escreva(aluno[cont1], "  ")
       para cont2 de 1 ate 5 faca
          notas[cont1, cont2] <- randi(10)
-         escreva(notas[cont1, cont2])
       fimpara
-      escreval()
-   fimpara
-   escreval(--------------------)
-
+      fimpara
    escreval ("Quem é você?")
    escreval ("Maria,José,Diogo,Julio, Ana, Noemi,Tiago,João,Ricardo ou Kleber")
    leia (nomealuno)
@@ -696,7 +691,7 @@ Inicio
            para cont2 de 1 ate 5 faca
                 escreva (notas[ cont1, cont2])
            fimpara
-           escreval()
+           escreval(" ------ Essas são as sua notas!")
         fimse
    fimpara
 
