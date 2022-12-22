@@ -654,3 +654,52 @@ Inicio
  vet1[8,4] <- vet2[4,2]* vet3[8,1]
  escreval(vet1[8,4])
 Fimalgoritmo
+................................................................................
+//ATV MATRIZ NOTAS
+Var
+   // Seção de Declarações das variáveis
+   aluno: vetor [1..10] de caracter
+   notas: vetor [1..10, 1..5] de real
+   nomealuno: caracter
+   cont1, cont2: inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   aluno[1] <- ("Maria")
+   aluno[2] <- ("José")
+   aluno[3] <- ("Diogo")
+   aluno[4] <- ("Julio")
+   aluno[5] <- ("Ana")
+   aluno[6] <- ("Noemi")
+   aluno[7] <- ("Tiago")
+   aluno[8] <- ("João")
+   aluno[9] <- ("Ricardo")
+   aluno[10] <- ("Kleber")
+
+   para cont1 de 1 ate 10 faca
+      escreva(aluno[cont1], "  ")
+      para cont2 de 1 ate 5 faca
+         notas[cont1, cont2] <- randi(10)
+         escreva(notas[cont1, cont2])
+      fimpara
+      escreval()
+   fimpara
+   escreval(--------------------)
+
+   escreval ("Quem é você?")
+   escreval ("Maria,José,Diogo,Julio, Ana, Noemi,Tiago,João,Ricardo ou Kleber")
+   leia (nomealuno)
+
+   para cont1 de 1 ate 10 faca
+        se (nomealuno = aluno[cont1]) entao
+           para cont2 de 1 ate 5 faca
+                escreva (notas[ cont1, cont2])
+           fimpara
+           escreval()
+        fimse
+   fimpara
+
+Fimalgoritmo
+....................................................................................
+
