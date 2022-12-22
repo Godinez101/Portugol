@@ -697,4 +697,45 @@ Inicio
 
 Fimalgoritmo
 ....................................................................................
+//ATV MATRIZ ALEATORIO
+Var
+   // Seção de Declarações das variáveis
+   matriz1: vetor [1..10, 1..10] de inteiro
+   matriz2: vetor [1..10, 1..10] de inteiro
+   matriz3: vetor [1..10, 1..10] de inteiro
+   cont1, cont2: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         matriz1[cont1, cont2] <- randi(100)
+         matriz2[cont1 ,cont2] <- randi(100)
+      fimpara
+   fimpara
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         matriz3[cont1, cont2] <- (matriz1[cont1, cont2] + matriz2[cont1, cont2])
+      fimpara
+   fimpara
+   escreval ("Matriz 1: ")
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         escreva (matriz1[cont1, cont2])
+      fimpara
+   fimpara
+   escreval ("Matriz 2: ")
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         escreva (matriz2[cont1, cont2])
+      fimpara
+   fimpara
+   escreval ("A soma das duas matrizes são: ")
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         escreva (matriz3[cont1, cont2])
+      fimpara
+   fimpara
+
+Fimalgoritmo
+...................................................................................
 
