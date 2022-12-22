@@ -738,14 +738,13 @@ Inicio
 
 Fimalgoritmo
 ...................................................................................
-// ATV FUNCAO
 Var
    // Seção de Declarações das variáveis
    valor1, valor2: inteiro
    resultado: real
-funcao calcula(valor1, valor2:real): real
+funcao calcula(v1, v2:real): real
 inicio
-   retorne (valor1/valor2)
+   retorne (v1/v2)
 fimfuncao
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
