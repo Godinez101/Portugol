@@ -738,4 +738,26 @@ Inicio
 
 Fimalgoritmo
 ...................................................................................
+// ATV FUNCAO
+Var
+   // Seção de Declarações das variáveis
+   valor1, valor2: inteiro
+   resultado: real
+funcao calcula(valor1, valor2:real): real
+inicio
+   retorne (valor1/valor2)
+fimfuncao
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("Informe o primeiro valor:")
+   leia (valor1)
+   escreval("Informe o segundo valor:")
+   leia(valor2)
+   resultado <- calcula(valor1, valor2)
+   escreval ("O resultado da soma será:", resultado)
+
+
+
+Fimalgoritmo
+.....................................................................................
 
