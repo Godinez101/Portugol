@@ -738,6 +738,7 @@ Inicio
 
 Fimalgoritmo
 ...................................................................................
+//FUNCAO
 Var
    // Seção de Declarações das variáveis
    valor1, valor2: inteiro
@@ -759,4 +760,33 @@ Inicio
 
 Fimalgoritmo
 .....................................................................................
+//ATV IDADE EM DIAS
+Var
+// Seção de Declarações das variáveis 
+ano, dias, meses, idadedias, anodia, mesdia: inteiro
+
+funcao calcula(v1, v2, v3:inteiro):inteiro
+inicio
+retorne (v1+v2+v3)
+
+fimfuncao
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval ("Digite quantos anos você tem:")
+leia(ano)
+escreval ("Digite quantos meses você tem:")
+leia(meses)
+escreval ("Digite quantos dias você tem:")
+leia(dias)
+escreval ("A sua idade em dias no total é de:")
+anodia <- (ano*365)
+mesdia <- (meses*30)
+idadedias <- calcula(anodia, mesdia, dias)
+escreval(idadedias)
+
+Fimalgoritmo
+.....................................................................
 
